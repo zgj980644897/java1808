@@ -16,16 +16,5 @@ public class TestPage{
         List<WxbGood> goods = goodsMapper.queryGoodByPage(1, SystemConstantsUitls.Page.pageSize);
         System.out.println(goods);
     }
-    @Test
-    public void test1(int i,int j){
-        i=i+j;
-        System.out.println(i+" ");
-        j=j+i;
-        System.out.println(j+" ");
-        test1(i,j);
-    }
-    @Test
-    public void aa(){
-        test1(1,1);
-    }
+
 }

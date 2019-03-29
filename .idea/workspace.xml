@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a11f8b-7a0b-4cfa-9864-04d4bb115360" name="Default Changelist" comment="" />
+    <list default="true" id="e2a11f8b-7a0b-4cfa-9864-04d4bb115360" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,9 +46,12 @@
     <session id="547647626">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -91,10 +97,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/commons/mybatis/MyBatisSessionFactoryUitls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
+            <state relative-caret-position="356">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,15 +130,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="218">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,7 +178,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="230">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -215,6 +219,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -266,17 +273,20 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="151" />
-    <option name="y" value="475" />
-    <option name="width" value="1594" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="276" />
+    <option name="y" value="117" />
+    <option name="width" value="1595" />
     <option name="height" value="840" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,20 +320,43 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553855766625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553863025806" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -347,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPage.aa">
+  <component name="RunManager" selected="Tomcat Server.MyTomcat">
     <configuration name="TestPage.aa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fxmallpage" />
       <extension name="coverage">
@@ -522,8 +555,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPage.aa" />
         <item itemvalue="JUnit.TestPage.testpage" />
+        <item itemvalue="JUnit.TestPage.aa" />
       </list>
     </recent_temporary>
   </component>
@@ -539,6 +572,9 @@
       <updated>1553761123857</updated>
       <workItem from="1553761126683" duration="16150000" />
       <workItem from="1553819186108" duration="3146000" />
+      <workItem from="1553861186030" duration="328000" />
+      <workItem from="1553861604133" duration="771000" />
+      <workItem from="1553862467160" duration="407000" />
     </task>
     <servers />
   </component>
@@ -555,14 +591,18 @@
     <history-entry file="TestPage_aa - 2019.03.29 at 17h 44m 22s.xml">
       <configuration name="TestPage.aa" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestPage_testpage - 2019.03.29 at 20h 29m 26s.xml">
+      <configuration name="TestPage.testpage" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19296000" />
+    <option name="totallyTimeSpent" value="20802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="126" y="245" width="1276" height="672" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19235925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2454844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -572,7 +612,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32531825" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1574074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,14 +623,14 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.033512063" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.041050903" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -674,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/commons/mybatis/MyBatisSessionFactoryUitls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/commons/mybatis/MybatisSessionFactoryUtils2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -728,6 +758,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -745,24 +785,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="218">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/commons/mybatis/MyBatisSessionFactoryUitls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="356">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
           </folding>
         </state>
       </provider>
