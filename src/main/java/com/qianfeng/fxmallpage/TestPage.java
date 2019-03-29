@@ -13,6 +13,7 @@ public class TestPage{
     * 路人a提交的代码
     * */
 /* 路人b提交了一行代码*/
+    /*路人c提交了一行文艺的注释*/
     @Test
     public void testpage() {
         GoodsMapper goodsMapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
