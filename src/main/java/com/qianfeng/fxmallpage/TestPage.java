@@ -18,6 +18,7 @@ public class TestPage{
         System.out.println(goodsMapper);
         List<WxbGood> goods = goodsMapper.queryGoodByPage(1, SystemConstantsUitls.Page.pageSize);
         System.out.println(goods);
+        /*路人甲提交了一行代码*/
     }
 
 }
