@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 public class TestPage{
+    /*
+    * 路人a提交的代码
+    * */
     @Test
     public void testpage() {
         GoodsMapper goodsMapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
