@@ -15,6 +15,7 @@ public class TestPage{
 /* 路人b提交了一行代码*/
     @Test
     public void testpage() {
+        /*路人b又提交了一行代码*/
         GoodsMapper goodsMapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
         System.out.println(goodsMapper);
         List<WxbGood> goods = goodsMapper.queryGoodByPage(1, SystemConstantsUitls.Page.pageSize);
