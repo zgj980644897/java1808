@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="863884ca-4889-4d06-8015-f57afe67dfe0" name="Default Changelist" comment="">
+    <list default="true" id="863884ca-4889-4d06-8015-f57afe67dfe0" name="Default Changelist" comment="路人d提交了没有提交的那一行代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,29 +24,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="88" />
-          <entry key="txt" value="45" />
+          <entry key="java" value="72" />
+          <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="88" />
-          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="JAVA" value="72" />
+          <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="1" />
           <entry key="git.branch.compare" value="1" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="224">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -70,7 +70,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="version2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -152,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553910758698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553912099863" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dome1808" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,18 +204,11 @@
       <option name="project" value="LOCAL" />
       <updated>1553867944447</updated>
     </task>
-    <task id="LOCAL-00004" summary="路人d提交了没有提交的那一行代码，路人乙提交了代码">
-      <created>1553910408038</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1553910408038</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4610000" />
+    <option name="totallyTimeSpent" value="4406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="236" y="72" width="1276" height="672" extended-state="0" />
@@ -235,7 +228,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.42962962" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33703703" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -288,14 +281,14 @@
     <MESSAGE value="路人甲提交了代码" />
     <MESSAGE value="路人c提交了一行文艺的代码" />
     <MESSAGE value="路人d提交了没有提交的那一行代码" />
-    <MESSAGE value="路人d提交了没有提交的那一行代码，路人乙提交了代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="路人d提交了没有提交的那一行代码，路人乙提交了代码" />
+    <MESSAGE value="master路人e提交了没有提交的那一行代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="master路人e提交了没有提交的那一行代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="224">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
