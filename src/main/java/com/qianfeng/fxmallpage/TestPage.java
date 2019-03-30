@@ -25,5 +25,10 @@ public class TestPage{
         /*路人乙提交了代码*/
         /*路人e提交了代码*/
     }
+    @Test
+    public void testAdd(){
+        GoodsMapper goodsMapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
+
+    }
 
 }

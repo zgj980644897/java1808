@@ -7,6 +7,7 @@ import com.qianfeng.fxmallpage.goods.dao.IGoodsDAO;
 import com.qianfeng.fxmallpage.goods.dao.impl.GoodsDAOImpl;
 
 import java.util.List;
+import java.util.UUID;
 
 public class GoodsServiceImpl implements IGoodsService {
     private IGoodsDAO dao =new GoodsDAOImpl();
@@ -18,5 +19,24 @@ public class GoodsServiceImpl implements IGoodsService {
         Integer index=(page-1)* SystemConstantsUitls.Page.pageSize;
         List<WxbGood> goodList= dao.queryGoodByPage(index);
         return goodList;
+    }
+
+    @Override
+    public void addGood(WxbGood good) {
+        UUID uuid = UUID.randomUUID();
+        String s = uuid.toString();
+        String sub=s.substring(0,8);
+        good.setGoodId("sub");
+        dao.addGood(good);
+    }
+
+    @Override
+    public void update(WxbGood good) {
+        dao.updateGood(good);
+    }
+
+    @Override
+    public void delect(Integer goodId) {
+        dao.deleteGood(goodId);
     }
 }

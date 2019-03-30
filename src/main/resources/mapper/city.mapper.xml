@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qianfeng.fxmallpage.goods.mapper.CityMapper">
+    <resultMap id="cityResultMap" type="com.qianfeng.fxmallpage.goods.bean.City">
+        <id property="cityId" column="city_id" javaType="java.lang.Long"/>
+        <result property="cityName" column="city_name" javaType="java.lang.String"/>
+        <result property="provinceId" column="province_id" javaType="java.lang.String"/>
+        <result property="firstLetter" column="first_letter" javaType="java.lang.String"/>
+        <result property="isHot" column="is_hot" javaType="java.lang.Long"/>
+        <result property="state" column="state" javaType="java.lang.Long"/>
+
+
+    </resultMap>
+    <!--按id查询城市-->
+    <select id="queryCityByPage" resultMap="cityResultMap">
+        select * from city limit #{index},#{size}
+    </select>
+    <!--用城市类添加城市-->
+    <insert id="addCity">
+        insert into city (city_id, city_name, province_id, first_letter, is_hot, state)
+        values (#{city.cityName},#{city.provinceId},#{city.firstLetter},
+        #{city.isHot},#{city.state});
+    </insert>
+    <!--用城市类修改城市-->
+    <update id="updateCity">
+        update city set city_name=#{city.cityName}, province_id=#{city.provinceId},
+        first_letter=#{city.firstLetter}, is_hot=#{city.isHot},
+        state=#{city.state} where city_id=#{city.cityId} ;
+    </update>
+    <!--根据id删除城市-->
+    <delete id="deleteCityById">
+        delete from city where city_id=#{cityId}
+    </delete>
+</mapper>

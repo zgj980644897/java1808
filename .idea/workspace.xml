@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="fxmallpage:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="863884ca-4889-4d06-8015-f57afe67dfe0" name="Default Changelist" comment="路人d提交了没有提交的那一行代码">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/ICityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/CityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/CityServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/ICityDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/CityDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/CityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/city.mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/good_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/商品文案管理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/商品销售统计.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/商户订单管理.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/commons/mybatis/MybatisSessionFactoryUtils2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/IGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/GoodsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean/WxbGood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean/WxbGood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/goods.mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/goods.mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/TestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/TestPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/commons/mybatis/MybatisSessionFactoryUtils2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/Service/IGoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/Service/IGoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/bean/WxbGood.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/bean/WxbGood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/goods.mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/goods.mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/TestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/TestPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/Service/IGoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/Service/IGoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/bean/WxbGood.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/bean/WxbGood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/mapper/goods.mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/fxmallpage/WEB-INF/classes/mapper/goods.mapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +63,30 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fxmall@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fxmall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="fxmall: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1151762599">
@@ -24,24 +100,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="html" value="2" />
+          <entry key="java" value="29" />
+          <entry key="jsp" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="29" />
+          <entry key="JSP" value="1" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="72" />
-          <entry key="txt" value="43" />
+          <entry key="dummy" value="11" />
+          <entry key="java" value="1325" />
+          <entry key="txt" value="51" />
+          <entry key="xml" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="72" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="JAVA" value="1325" />
+          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="SQL" value="6" />
+          <entry key="XML" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -54,16 +142,129 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/CityMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="99">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/IGoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/BaseServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/GoodsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-184">
+              <caret line="23" column="73" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="23" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/CityServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/city.mapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/CityServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean/City.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>WxbGood</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>City</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -77,7 +278,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/IGoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/goods.mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean/WxbGood.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean/City.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/City.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/ICityDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/CityMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/CityDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/ICityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/CityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/city.mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/GoodsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/CityServlet.java" />
       </list>
     </option>
   </component>
@@ -87,6 +307,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -95,9 +322,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="295" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="180" />
+    <option name="y" value="142" />
     <option name="width" value="1595" />
     <option name="height" value="840" />
   </component>
@@ -141,6 +368,136 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxmallpage" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fxmallpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java1808" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,13 +507,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553912099863" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dome1808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553932469808" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MavenIdea\java1808\src\main\resources\mapper" />
+      <recent name="C:\MavenIdea\java1808\src\main\webapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,6 +533,52 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="goods_list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/goods_list.jsp" />
+      <deployment>
+        <artifact name="fxmallpage:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="goods_list_jsp_fxmallpage" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="fxmallpage:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.goods_list.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -204,16 +614,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553867944447</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="路人d提交了没有提交的那一行代码">
+      <created>1553912142255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553912142255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4406000" />
+    <option name="totallyTimeSpent" value="17776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="72" width="1276" height="672" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31116584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25402144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -221,15 +638,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33703703" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.13456091" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -238,7 +657,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -280,15 +699,192 @@
     <MESSAGE value="路人a提交的代码" />
     <MESSAGE value="路人甲提交了代码" />
     <MESSAGE value="路人c提交了一行文艺的代码" />
-    <MESSAGE value="路人d提交了没有提交的那一行代码" />
     <MESSAGE value="master路人e提交了没有提交的那一行代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="master路人e提交了没有提交的那一行代码" />
+    <MESSAGE value="路人d提交了没有提交的那一行代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="路人d提交了没有提交的那一行代码" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/TestPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/商品销售统计.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/goods_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8963">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/good_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2655">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/796dfac5-3ae5-4aa9-8c1e-2d6f6e065393/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean/WxbGood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="352" column="20" selection-start-line="352" selection-start-column="20" selection-end-line="352" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/goods.mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/IGoodsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/GoodsDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/impl/CityDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/dao/ICityDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/ICityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/bean/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/Impl/CityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/mapper/CityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Service/IGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/GoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="23" column="73" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="23" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/city.mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qianfeng/fxmallpage/goods/Servlet/CityServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
