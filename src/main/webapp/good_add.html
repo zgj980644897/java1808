@@ -448,7 +448,7 @@
 							</h1>
 						</div>
 						
-                          <form method="post" name="copy_form" id="copy_form" action="http://localhost:8081/cust/goods/add" enctype="multipart/form-data">
+                          <form method="post" name="copy_form" id="copy_form" action="good.do?m=addGood" enctype="multipart/form-data">
 							<div class="widget-main">
 							     <input type="hidden" id="sku_str" name="sku_str" value="">
 							     <input type="hidden" id="ctype" name="ctype" value="custGood">
@@ -706,7 +706,7 @@
 							               <i class="icon-save bigger-120"></i>
 							                保存 
 							             </span>
-							             <span id="back" onclick="goToPage(&#39;/cust/goods/list&#39;);" class="btn btn-lxg btn-undo">
+							             <span id="back" onclick="goToPage(/cust/goods/list);" class="btn btn-lxg btn-undo">
 							             <i class="icon-undo bigger-120"></i>
 							                返回 </span>
 									</td>

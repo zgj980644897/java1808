@@ -9,14 +9,15 @@
     <servlet-name> GoodsServlet</servlet-name>
     <servlet-class> com.qianfeng.fxmallpage.goods.Servlet.GoodsServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
-    <servlet-name>GoodsServlet</servlet-name>
-    <url-pattern>/good.do</url-pattern>
-  </servlet-mapping>
   <servlet>
     <servlet-name>CityServlet</servlet-name>
     <servlet-class>com.qianfeng.fxmallpage.goods.Servlet.CityServlet</servlet-class>
   </servlet>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/good.do</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>CityServlet</servlet-name>
     <url-pattern>/city.do</url-pattern>

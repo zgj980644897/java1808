@@ -20,17 +20,20 @@ public class CityDAOImpl implements ICityDAO {
     public void addCity(City city) {
         CityMapper mapper = MyBatisSessionFactoryUitls.getSession().getMapper(CityMapper.class);
         mapper.addCity(city);
+        MyBatisSessionFactoryUitls.getSession().commit();
     }
 
     @Override
     public void updateCity(City city) {
         CityMapper mapper = MyBatisSessionFactoryUitls.getSession().getMapper(CityMapper.class);
         mapper.updateCity(city);
+        MyBatisSessionFactoryUitls.getSession().commit();
     }
 
     @Override
     public void deleteCity(Integer cityId) {
         CityMapper mapper = MyBatisSessionFactoryUitls.getSession().getMapper(CityMapper.class);
         mapper.deleteCity(cityId);
+        MyBatisSessionFactoryUitls.getSession().commit();
     }
 }

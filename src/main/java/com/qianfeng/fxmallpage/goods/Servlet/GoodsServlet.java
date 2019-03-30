@@ -5,6 +5,7 @@ import com.qianfeng.fxmallpage.goods.Service.Impl.GoodsServiceImpl;
 import com.qianfeng.fxmallpage.goods.bean.WxbGood;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,7 +15,7 @@ import java.util.List;
 
 public class GoodsServlet extends BaseServlet {
     private IGoodsService goodsService=new GoodsServiceImpl();
-    protected void queryGoodByPage(HttpServletRequest req, HttpServletResponse resp) throws
+    public void queryGoodByPage(HttpServletRequest req, HttpServletResponse resp) throws
             ServletException, IOException {
         String page=req.getParameter("page");
         try {

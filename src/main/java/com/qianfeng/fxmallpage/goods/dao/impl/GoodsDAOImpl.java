@@ -21,19 +21,22 @@ public class GoodsDAOImpl implements IGoodsDAO {
     @Override
     public void addGood(WxbGood good) {
         GoodsMapper mapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
-        mapper.addGood(good);
 
+        mapper.addGood(good);
+        MyBatisSessionFactoryUitls.getSession().commit();
     }
 
     @Override
     public void updateGood(WxbGood good) {
         GoodsMapper mapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
         mapper.updateGood(good);
+        MyBatisSessionFactoryUitls.getSession().commit();
     }
 
     @Override
     public void deleteGood(Integer goodId) {
         GoodsMapper mapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
         mapper.deleteGood(goodId);
+        MyBatisSessionFactoryUitls.getSession().commit();
     }
 }

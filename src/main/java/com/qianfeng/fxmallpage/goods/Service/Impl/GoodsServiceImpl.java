@@ -26,7 +26,7 @@ public class GoodsServiceImpl implements IGoodsService {
         UUID uuid = UUID.randomUUID();
         String s = uuid.toString();
         String sub=s.substring(0,8);
-        good.setGoodId("sub");
+        good.setGoodId(sub);
         dao.addGood(good);
     }
 
