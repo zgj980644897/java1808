@@ -5,12 +5,15 @@ import com.qianfeng.fxmallpage.goods.Service.IGoodsService;
 import com.qianfeng.fxmallpage.goods.bean.WxbGood;
 import com.qianfeng.fxmallpage.goods.dao.IGoodsDAO;
 import com.qianfeng.fxmallpage.goods.dao.impl.GoodsDAOImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.UUID;
-
+@Component
 public class GoodsServiceImpl implements IGoodsService {
-    private IGoodsDAO dao =new GoodsDAOImpl();
+    @Autowired
+    private GoodsDAOImpl dao ;
     @Override
     public List<WxbGood> queryGoodByPage(Integer page) throws Exception {
         if (page < 1) {

@@ -3,7 +3,10 @@ package com.qianfeng.fxmallpage.goods.Servlet;
 import com.qianfeng.fxmallpage.goods.Service.IGoodsService;
 import com.qianfeng.fxmallpage.goods.Service.Impl.GoodsServiceImpl;
 import com.qianfeng.fxmallpage.goods.bean.WxbGood;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -14,12 +17,23 @@ import java.sql.Timestamp;
 import java.util.List;
 
 public class GoodsServlet extends BaseServlet {
-    private IGoodsService goodsService=new GoodsServiceImpl();
+
+    private GoodsServiceImpl goodsService;
+
+    public void setGoodsService(GoodsServiceImpl goodsService) {
+        this.goodsService = goodsService;
+    }
+
+
+
+
     public void queryGoodByPage(HttpServletRequest req, HttpServletResponse resp) throws
             ServletException, IOException {
+
         String page=req.getParameter("page");
         try {
             String pageStr=page==null?"1":page;
+            System.out.println(goodsService);
             List<WxbGood> goods= goodsService.queryGoodByPage(Integer.parseInt(pageStr));
             req.setAttribute("goods",goods);
             req.getRequestDispatcher("goods_list.jsp").forward(req,resp);

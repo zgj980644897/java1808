@@ -80,7 +80,7 @@
           #{good.copyIds}, #{good.copyDesc}, #{good.forwardLink}, #{good.orderNo}, #{good.typeId}, #{good.tags},
         #{good.state}, #{good.createTime}, #{good.toped}, #{good.recomed},#{good.topedTime},
           #{good.recomedTime}, #{good.spcId}, #{good.zonId}, #{good.sellNum}, #{good.website},
-        #{good.iswxpay}, #{good.isfdfk}, #{good.leixingId}, #{good.kfqq});
+        #{good.iswxpay}, #{good.isfdfk}, #{good.leixingId}, #{good.kfqq})
     </insert>
     <update id="updateGood">
         update wxb_good set  good_name=#{good.goodName},customer_id=#{good.customerId},good_pic=#{good.goodPic},
