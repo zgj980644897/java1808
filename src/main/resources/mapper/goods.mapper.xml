@@ -73,6 +73,9 @@
     <select id="queryGoodByPage" resultMap="goodResultMap">
         select <include refid="params"/> from wxb_good limit #{index},#{size}
     </select>
+    <select id="queryGoodById" resultMap="goodResultMap">
+        select <include refid="params"/> from wxb_good where good_id=#{goodId}
+    </select>
     <insert id="addGood">
         insert into wxb_good ( <include refid="params"/> ) 
           values (#{good.goodId}, #{good.goodName}, #{good.customerId}, #{good.goodPic}, #{good.goodPic1}, #{good.goodPic2},#{good.promoteDesc},

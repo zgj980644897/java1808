@@ -14,6 +14,13 @@ public interface IGoodsDAO {
     List<WxbGood> queryGoodByPage(Integer page) throws Exception;
 
     /**
+     * 根据id查找商品
+     * @param goodId
+     * @return
+     */
+    WxbGood queryGoodById(String goodId);
+
+    /**
      * 添加商品
      * @param good
      */

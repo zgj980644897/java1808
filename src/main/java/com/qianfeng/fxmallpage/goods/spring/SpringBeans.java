@@ -17,7 +17,7 @@ import java.io.InputStream;
 @Component
 public class SpringBeans {
     private static ThreadLocal<SqlSession> threadLocal=new ThreadLocal<>();
-    @Bean
+
     public SqlSessionFactory getSqlSessionFactory() throws IOException {
         InputStream inputStream = Resources.getResourceAsStream("mybatis.cfg.xml");
         SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(inputStream);

@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class GoodsServlet2 extends BaseServlet{
+public class GoodsServlet2{
     public void queryGoodByPage(HttpServletRequest req, HttpServletResponse resp) {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring/spring.xml");
         try {

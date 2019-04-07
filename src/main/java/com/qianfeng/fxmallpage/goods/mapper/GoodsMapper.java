@@ -15,6 +15,13 @@ public interface GoodsMapper {
     List<WxbGood> queryGoodByPage(@Param("index") Integer index,@Param("size") Integer size);
 
     /**
+     * 根据id查找商品
+     * @param goodId
+     * @return
+     */
+    WxbGood queryGoodById(@Param("goodId") String goodId);
+
+    /**
      * 添加商品
      * @param good
      */

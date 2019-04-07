@@ -6,9 +6,22 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <context:component-scan base-package="com.qianfeng.fxmallpage.goods.dao,com.qianfeng.fxmallpage.goods.spring"/>
-    <bean id="GoodService" class="com.qianfeng.fxmallpage.goods.Service.Impl.GoodsServiceImpl"/>
-    <bean id="GoodsServlet" class="com.qianfeng.fxmallpage.goods.Servlet.GoodsServlet">
-        <property name="goodsService" ref="GoodService"/>
+    <context:component-scan base-package="com.qianfeng.fxmallpage.goods.Service,com.qianfeng.fxmallpage.goods.dao,com.qianfeng.fxmallpage.goods.spring"/>
+
+    <bean id="dataSources" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/fxmall"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
     </bean>
+
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSources"/>
+        <property name="mapperLocations" value="mapper/goods.mapper.xml"/>
+    </bean>
+
+    <bean id="mapperScan" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.qianfeng.fxmallpage.goods.mapper"/>
+    </bean>
+
 </beans>

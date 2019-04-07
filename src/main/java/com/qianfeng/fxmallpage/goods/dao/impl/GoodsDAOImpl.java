@@ -25,6 +25,13 @@ public class GoodsDAOImpl implements IGoodsDAO {
     }
 
     @Override
+    public WxbGood queryGoodById(String goodId) {
+        GoodsMapper goodsMapper= session.getMapper(GoodsMapper.class);
+        WxbGood good =goodsMapper.queryGoodById(goodId);
+        return good;
+    }
+
+    @Override
     public void addGood(WxbGood good) {
         GoodsMapper mapper = MyBatisSessionFactoryUitls.getSession().getMapper(GoodsMapper.class);
 

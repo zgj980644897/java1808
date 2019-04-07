@@ -25,6 +25,11 @@ public class GoodsServiceImpl implements IGoodsService {
     }
 
     @Override
+    public WxbGood queryGoodById(String goodId) {
+        return dao.queryGoodById(goodId);
+    }
+
+    @Override
     public void addGood(WxbGood good) {
         UUID uuid = UUID.randomUUID();
         String s = uuid.toString();
