@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qianfeng.fxmallpage.member.mapper.MemberMapper">
+    <resultMap id="memberResultMap" type="com.qianfeng.fxmallpage.member.bean.WxbMemeber">
+        <id property="memeberId" column="memeber_id"/>
+        <result property="qqNum" column="qq_num"/>
+        <result property="recomUser" column="recom_user"/>
+        <result property="registerTime" column="register_time"/>
+        <result property="payAccount" column="pay_account"/>
+
+    </resultMap>
+    <select id="memberLogin" resultMap="memberResultMap">
+        select * from wxb_memeber where account = #{account}
+    </select>
+</mapper>

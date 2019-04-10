@@ -3,16 +3,17 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 
-    <context:component-scan base-package="com.qianfeng.fxmallpage.goods.Service,com.qianfeng.fxmallpage.commons.logger,com.qianfeng.fxmallpage.goods.dao,com.qianfeng.fxmallpage.goods.spring"/>
+    <context:component-scan base-package="com.qianfeng.fxmallpage.member,com.qianfeng.fxmallpage.goods.Service,com.qianfeng.fxmallpage.commons.logger,com.qianfeng.fxmallpage.goods.dao,com.qianfeng.fxmallpage.goods.spring"/>
     <mvc:annotation-driven/>
     <aop:aspectj-autoproxy/>
-
+    <mvc:default-servlet-handler/>
     <bean id="mapperScan" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.qianfeng.fxmallpage.goods.mapper"/>
+        <property name="basePackage" value="com.qianfeng.fxmallpage.goods.mapper,com.qianfeng.fxmallpage.member.mapper"/>
     </bean>
 
     <bean id="dataSources" class="com.mchange.v2.c3p0.ComboPooledDataSource">
@@ -24,9 +25,19 @@
 
     <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSources"/>
-        <property name="mapperLocations" value="mapper/*.mapper.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/*.mapper.xml"/>
     </bean>
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+                <property name="objectMapper" ref="objectMapper"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
 
+    <bean id="objectMapper" class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean"
+          p:indentOutput="true"
+          p:simpleDateFormat="yyyy-MM-dd"/>
 
 
 </beans>

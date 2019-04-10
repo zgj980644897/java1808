@@ -3,13 +3,9 @@ package com.qianfeng.fxmallpage.goods.Servlet;
 import com.qianfeng.fxmallpage.commons.utils.ApplicationContextUtils;
 import com.qianfeng.fxmallpage.goods.Service.ILoginService;
 import com.qianfeng.fxmallpage.goods.bean.UserInfo;
-import com.qianfeng.fxmallpage.goods.mapper.LoginMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.lang.annotation.Retention;
 
 @Controller
 public class Login {

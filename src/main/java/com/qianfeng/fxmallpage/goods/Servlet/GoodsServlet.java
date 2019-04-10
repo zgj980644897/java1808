@@ -2,15 +2,9 @@ package com.qianfeng.fxmallpage.goods.Servlet;
 
 import com.qianfeng.fxmallpage.commons.utils.ApplicationContextUtils;
 import com.qianfeng.fxmallpage.goods.Service.IGoodsService;
-import com.qianfeng.fxmallpage.goods.Service.Impl.GoodsServiceImpl;
 import com.qianfeng.fxmallpage.goods.bean.WxbGood;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

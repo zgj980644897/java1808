@@ -5,8 +5,8 @@ import com.qianfeng.fxmallpage.commons.utils.ApplicationContextUtils;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-public class TomcatInitListener implements ServletContextListener{
-    @Override
+public class TomcatInitListener {
+
     public void contextInitialized(ServletContextEvent sce) {
         System.out.println("--------服务器启动————");
         ApplicationContextUtils.info();
@@ -14,7 +14,7 @@ public class TomcatInitListener implements ServletContextListener{
         System.out.println("--------服务器启动————");
     }
 
-    @Override
+
     public void contextDestroyed(ServletContextEvent sce) {
 
     }
