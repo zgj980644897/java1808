@@ -11,6 +11,7 @@ public class TomcatInitListener implements ServletContextListener{
         System.out.println("--------服务器启动————");
         ApplicationContextUtils.info();
         System.out.println(ApplicationContextUtils.getApplicationContext());
+        System.out.println("--------服务器启动————");
     }
 
     @Override

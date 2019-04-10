@@ -1,10 +1,11 @@
 package com.qianfeng.fxmallpage.goods.mapper;
 
 import com.qianfeng.fxmallpage.goods.bean.WxbGood;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
+@Mapper
 public interface GoodsMapper {
     /**
      * 分页查询

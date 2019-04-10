@@ -2,11 +2,18 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 
-    <context:component-scan base-package="com.qianfeng.fxmallpage.goods.Service,com.qianfeng.fxmallpage.goods.dao,com.qianfeng.fxmallpage.goods.spring"/>
+    <context:component-scan base-package="com.qianfeng.fxmallpage.goods.Service,com.qianfeng.fxmallpage.commons.logger,com.qianfeng.fxmallpage.goods.dao,com.qianfeng.fxmallpage.goods.spring"/>
+    <mvc:annotation-driven/>
+    <aop:aspectj-autoproxy/>
+
+    <bean id="mapperScan" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.qianfeng.fxmallpage.goods.mapper"/>
+    </bean>
 
     <bean id="dataSources" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
@@ -17,11 +24,9 @@
 
     <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSources"/>
-        <property name="mapperLocations" value="mapper/goods.mapper.xml"/>
+        <property name="mapperLocations" value="mapper/*.mapper.xml"/>
     </bean>
 
-    <bean id="mapperScan" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.qianfeng.fxmallpage.goods.mapper"/>
-    </bean>
+
 
 </beans>

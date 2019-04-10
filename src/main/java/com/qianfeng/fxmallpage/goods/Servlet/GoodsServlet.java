@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.sql.Timestamp;
 import java.util.List;
 
@@ -27,11 +28,18 @@ public class GoodsServlet extends BaseServlet {
             ServletException, IOException {
 
         String page=req.getParameter("page");
-        goodsService= ApplicationContextUtils.getApplicationContext().getBean(GoodsServiceImpl.class);
+        goodsService= (IGoodsService) ApplicationContextUtils.getApplicationContext().getBean("goodsServiceImpl");
         try {
             String pageStr=page==null?"1":page;
-            System.out.println(goodsService);
-            List<WxbGood> goods= goodsService.queryGoodByPage(Integer.parseInt(pageStr));
+
+            System.out.println("++++++"+goodsService);
+            Method[] methods = goodsService.getClass().getMethods();
+            for (Method m:methods){
+                System.out.println(m.getName()+m.toString());
+            }
+            List<WxbGood> goods=goodsService.queryGoodByPage(Integer.parseInt(pageStr));
+
+            System.out.println("---------"+goods);
             req.setAttribute("goods",goods);
             req.getRequestDispatcher("goods_list.jsp").forward(req,resp);
         } catch (Exception e) {
@@ -48,7 +56,7 @@ public class GoodsServlet extends BaseServlet {
         /*获取表单传输的值*/
         String goodId = req.getParameter("goodId");
         if (goodId != null) {
-            goodsService = ApplicationContextUtils.getApplicationContext().getBean(GoodsServiceImpl.class);
+            goodsService = (IGoodsService) ApplicationContextUtils.getApplicationContext().getBean("goodsServiceImpl");
             WxbGood good = goodsService.queryGoodById(goodId);
             req.getSession().setAttribute("good", good);
             System.out.println(good);

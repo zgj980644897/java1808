@@ -33,7 +33,7 @@ public class SpringBeans {
         }
         return session;
     }
-    @Bean
+
     public IGoodsDAO getGoodDao() {
         IGoodsDAO dao = new GoodsDAOImpl();
         return dao;

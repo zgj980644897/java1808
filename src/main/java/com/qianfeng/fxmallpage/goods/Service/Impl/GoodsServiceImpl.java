@@ -5,28 +5,31 @@ import com.qianfeng.fxmallpage.goods.Service.IGoodsService;
 import com.qianfeng.fxmallpage.goods.bean.WxbGood;
 import com.qianfeng.fxmallpage.goods.dao.IGoodsDAO;
 import com.qianfeng.fxmallpage.goods.dao.impl.GoodsDAOImpl;
+import com.qianfeng.fxmallpage.goods.mapper.GoodsMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
-@Component
+@Service
 public class GoodsServiceImpl implements IGoodsService {
     @Autowired
-    private GoodsDAOImpl dao ;
+    private GoodsMapper goodsMapper;
     @Override
     public List<WxbGood> queryGoodByPage(Integer page) throws Exception {
         if (page < 1) {
             throw new IndexOutOfBoundsException("页码不能小于1");
         }
         Integer index=(page-1)* SystemConstantsUitls.Page.pageSize;
-        List<WxbGood> goodList= dao.queryGoodByPage(index);
+        List<WxbGood> goodList= goodsMapper.queryGoodByPage(index,SystemConstantsUitls.Page.pageSize);
+        System.out.println("**********"+goodList);
         return goodList;
     }
 
     @Override
     public WxbGood queryGoodById(String goodId) {
-        return dao.queryGoodById(goodId);
+        return goodsMapper.queryGoodById(goodId);
     }
 
     @Override
@@ -35,16 +38,16 @@ public class GoodsServiceImpl implements IGoodsService {
         String s = uuid.toString();
         String sub=s.substring(0,8);
         good.setGoodId(sub);
-        dao.addGood(good);
+        goodsMapper.addGood(good);
     }
 
     @Override
     public void update(WxbGood good) {
-        dao.updateGood(good);
+        goodsMapper.updateGood(good);
     }
 
     @Override
     public void delect(Integer goodId) {
-        dao.deleteGood(goodId);
+        goodsMapper.deleteGood(goodId);
     }
 }
